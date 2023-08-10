@@ -1,5 +1,6 @@
 Feature: Openpage
   Scenario: Deschide o pagina la alegere
-    Given Deschid browserul
-    When Accesez pagina "https://www.google.com"
-    And Close the browser
+    Given Open the browser
+    When Access page "https://qa-practice.netlify.app/"
+   And Press button "Buttons"
+    And Press button "Checkboxes"
